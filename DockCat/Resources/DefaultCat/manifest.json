@@ -1,0 +1,28 @@
+{
+  "id": "default-pet",
+  "name": "E",
+  "author": "Eileen",
+  "canvas_width": 650,
+  "canvas_height": 650,
+  "default_anchor": {
+    "x": 0.5,
+    "y": 0.88
+  },
+  "poses": {
+    "resting": "poses/resting",
+    "held": "poses/held",
+    "dialogue": "poses/dialogue",
+    "transition": "poses/transition"
+  },
+  "animations": {
+    "walk": {
+      "fps": 3,
+      "frames": [
+          "animations/walk/walk_01.png",
+          "animations/walk/walk_02.png",
+          "animations/walk/walk_03.png",
+          "animations/walk/walk_04.png"
+      ]
+    }
+  }
+}

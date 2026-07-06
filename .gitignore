@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcuserdatad/
+*.moved-aside
+
+# Archives
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Local app/user-generated data
+Application Support/
+Caches/
