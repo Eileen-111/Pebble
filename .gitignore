@@ -9,6 +9,8 @@ build/
 *.xcodeproj/xcuserdata/
 *.xcuserdatad/
 *.moved-aside
+*.xccheckout
+*.xcscmblueprint
 
 # Archives
 *.xcarchive
@@ -18,6 +20,7 @@ build/
 # Swift Package Manager
 .build/
 .swiftpm/
+Package.resolved
 
 # Logs and temp files
 *.log
