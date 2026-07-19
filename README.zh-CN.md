@@ -1,5 +1,73 @@
 # Pebble
-一个帮助ADHD用户降低启动门槛、记录微小进步的桌面陪伴应用。
+
+中文 | [English](./README.en.md)
+
+Pebble 是一个基于 macOS 的桌面宠物应用。它可以让一个小宠物在 Dock 附近活动，并支持待机、行走等基础动画状态，同时支持默认资源包和用户自定义上传资源包。
+
+本项目基于开源项目 [DockCat](https://github.com/Auwuua/DockCat) 修改开发。
+
+## 项目简介
+
+Pebble 的目标是提供一个轻量、可自定义的 macOS 桌面陪伴体验。用户可以使用 App 内置的默认宠物资源，也可以上传自己的宠物图片资源包，让桌面宠物以不同形象出现在桌面上。
+
+当前项目仍处于开发和测试阶段，主要聚焦于桌宠动画、资源加载、自定义资源包处理和 macOS 桌面交互体验。
+
+## 功能特性
+
+- macOS 桌面宠物展示
+- 支持 Dock 附近活动
+- 支持待机与行走动画状态
+- 内置默认宠物资源包
+- 支持用户上传自定义宠物资源
+- 支持本地资源加载与缓存
+- 轻量化桌面陪伴体验
+
+## 下载与安装
+
+你可以在本仓库的 [Releases](../../releases) 页面下载最新的 macOS 测试版本。
+
+当前版本说明：
+
+- App 以 `.zip` 形式提供
+- 当前为未签名测试版
+- 首次打开时，macOS 可能提示“无法验证开发者”
+
+如果 macOS 阻止打开，请尝试：
+
+1. 解压下载的 `.zip` 文件；
+2. 右键点击 `Pebble.app`；
+3. 选择“打开”；
+4. 在弹窗中再次确认打开。
+
+由于当前版本尚未进行 Apple Developer ID 签名和 notarization，因此该提示属于正常现象。
+
+## 从源码运行
+
+### 环境要求
+
+- macOS
+- Xcode
+- Swift
+
+### 运行步骤
+
+1. 克隆本仓库：
+
+```bash
+git clone https://github.com/Eileen-111/Pebble.git
+
+2. 进入项目目录：
+
+```bash
+cd Pebble
+
+3. 使用 Xcode 打开项目文件：
+
+```bash
+open DockCat.xcodeproj
+
+4. 在 Xcode 中选择 App Target；
+5. 点击 Run 构建并运行项目。
 
 
 
