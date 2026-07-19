@@ -51,25 +51,38 @@ Pebble 的目标是提供一个轻量、可自定义的 macOS 桌面陪伴体验
 
 ### 运行步骤
 
-1. 克隆本仓库：
+克隆本仓库并进入项目目录：
 
-```bash
 git clone https://github.com/Eileen-111/Pebble.git
 
-2. 进入项目目录：
-
-```bash
 cd Pebble
 
-3. 使用 Xcode 打开项目文件：
+使用 Xcode 打开项目文件：
 
-```bash
 open DockCat.xcodeproj
 
-4. 在 Xcode 中选择 App Target；
-5. 点击 Run 构建并运行项目。
+如果项目文件位于子目录中，请在 Finder 中找到 DockCat.xcodeproj 后双击打开。
 
+在 Xcode 中选择 App Target。
+点击 Run 构建并运行项目。
 
+## 项目结构
+
+当前项目主要结构如下：
+
+DockCat.xcodeproj：Xcode 项目文件
+
+DockCat/：主要源码与资源文件
+
+DockCat/Assets.xcassets：App 图标及部分资源文件
+
+README.md：项目说明文档
+
+README.en.md：英文版 README
+
+LICENSE：许可证文件
+
+.gitignore：Git 忽略规则
 
 ## 项目来源与致谢
 
